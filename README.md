@@ -1,7 +1,10 @@
 # Cypress Tests with CI Using Jenkins
+![projeto1](assets/cypress-jenkins.png)
 _This project demonstrates the integration of Cypress with Jenkins for an efficient CI/CD pipeline. It was adapted from an EBAC project, focusing on using Jenkins as an automation and continuous integration tool._
 
 **Jenkins**: A CI/CD tool used to configure, manage, and automate tests.
+
+**Para README em Português acessar no repositório o documento README-PTBR.md**
 
 ## Cloning and Running on Your Machine
 ### Pré-requisito:
