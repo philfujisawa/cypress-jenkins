@@ -1,54 +1,45 @@
-# Testes End to End - Ebac Shop
-### Exercício para os alunos de Qualidade de software da EBAC 
+# Cypress Tests with CI Using Jenkins
+_This project demonstrates the integration of Cypress with Jenkins for an efficient CI/CD pipeline. It was adapted from an EBAC project, focusing on using Jenkins as an automation and continuous integration tool._
 
-Ebac shop: http://lojaebac.ebaconline.art.br/
+**Jenkins**: A CI/CD tool used to configure, manage, and automate tests.
 
-## Clonando e executando em sua máquina
-
+## Cloning and Running on Your Machine
 ### Pré-requisito:
 
--Node.js - Você encontra em: https://nodejs.org/en/
+-Node.js - Download it from: 
++ [Node.js](https://nodejs.org/pt)
 
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
+-To set up Jenkins on your machine, follow the official guide:
++ [Jenkins](https://www.jenkins.io/doc/book/installing/)
 
--Git: você encontra em: https://git-scm.com/downloads
-
-
-Via terminal, rode os seguintes comandos:
+Using the terminal, run the following commands:
 ```  
-git clone https://github.com/EBAC-QE/testes-e2e-ebac-shop.git
+git clone https://github.com/philfujisawa/cypress-jenkins.git
 ```
 ```
-cd testes-e2e-ebac-shop
+cd path/to/directory/cypress-jenkins.git
 ```
 
-#### Para instalar as dependencias:
+#### To install dependencies:
 ```
 npm install 
 ```
 
-#### Para executar em moodo Headlesss via console:
+#### To run in Headless mode via console:
 ```
 npx cypress run
 ```
 
-#### Para executar via Dashboard:
+#### To run via Dashboard:
 ```
 npx cypress open 
 ```
-Após abrir o dasboard, clique na opção "Running integration tests" para rodar todos os testes.
+After opening the dashboard, click on "Running integration tests" to execute all tests.
 
 
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
+### Supporting Libraries:
+-Cypress - Automation framework: https://cypress.io/
 
--Faker: Biblioteca para geração de massa de dados: https://www.npmjs.com/package/faker
+-Faker - Library for generating test data: https://www.npmjs.com/package/faker
 
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
-
-
-
-
+### Thank you so much!!
